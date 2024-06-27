@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>翻转</title>
+    <style>
+      .img-1 {
+        transform: perspective(800px) rotateY(180deg); /* 翻转180度，透视800px */
+        transition-delay: 0.3s; /* 过程时间 */
+        opacity: 1; /* 配合透明度更好 */
+      }
+      :hover {
+      } /* 产生过程效果 */
+    </style>
+  </head>
+  <body>
+    <img src="./logo.jpg" width="300" alt="" srcset="" />
+    <img class="img-1" src="./logo.jpg" width="300" alt="" srcset="" />
+  </body>
+</html>
